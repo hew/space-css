@@ -1,0 +1,166 @@
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 64em);
+
+:root {
+  --initial: intial;
+  --one:     2.5em;
+  --two:     5em;
+  --three:   10em;
+  --four:    20em;
+  --five:    40em;
+  --six:     80em;
+  --seven:   160em;
+  --eight:   320em;
+}
+
+/*
+ * Size
+ * -------------------------------------------------------------------------- */
+
+  .fs,  .fill-screen     { height: 100vh; width: 100vw; }
+  .fy,  .fill-height     { height: 100% }
+  .fx,  .fill-width      { width: 100%  }
+  .fxy, .fill            { width: 100%; height: 100%; }
+
+  .tblr  {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+ /* Static Height/Width
+  * -------------------------------------------------------------------------- */
+
+  .x1    { width: var(--one)   }
+  .x2    { width: var(--two)   }
+  .x3    { width: var(--three) }
+  .x4    { width: var(--four)  }
+  .x5    { width: var(--five)  }
+  .x6    { width: var(--six)   }
+  .x7    { width: var(--seven) }
+  .x8    { width: var(--eight) }
+  
+  .y1    { height: var(--one)   }
+  .y2    { height: var(--two)   }
+  .y3    { height: var(--three) }
+  .y4    { height: var(--four)  }
+  .y5    { height: var(--five)  }
+  .y6    { height: var(--siy)   }
+  .y7    { height: var(--seven) }
+  .y8    { height: var(--eight) }
+
+ /*
+  * Background
+  * -------------------------------------------------------------------------- */
+
+    .cover {
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+    .contain {
+     background-size: contain;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+   
+  @media (--breakpoint-sm) {  
+    .sm-cover {
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+    .sm-contain {
+     background-size: contain;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+  }
+  @media (--breakpoint-md) {  
+    .md-cover {
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+    .md-contain {
+     background-size: contain;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+  }
+  @media (--breakpoint-lg) {  
+    .lg-cover {
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+    .lg-contain {
+     background-size: contain;
+     background-position: center;
+     background-repeat: no-repeat;
+   }
+  }
+
+
+/*
+ * Hide/Remove
+ * -------------------------------------------------------------------------- */
+
+   .hide, .hidden {
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect0 0 0 0;
+    clip: rect0, 0, 0, 0;
+    position: absolute;
+  }
+  @media (--breakpoint-sm) {  
+   .sm-hide, .sm-hidden {
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect0 0 0 0;
+    clip: rect0, 0, 0, 0;
+    position: absolute;
+  }
+}
+  @media (--breakpoint-md) {  
+   .md-hide, .md-hidden {
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect0 0 0 0;
+    clip: rect0, 0, 0, 0;
+    position: absolute;
+  }
+}
+  @media (--breakpoint-lg) {  
+   .lg-hide, .lg-hidden {
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect0 0 0 0;
+    clip: rect0, 0, 0, 0;
+    position: absolute;
+  }
+}
+
+  .sm-remove { display: none }
+  .md-remove { display: none }
+  .lg-remove { display: none }
+
+  @media (--breakpoint-sm) {  .sm-remove { display: var(--initial) } }
+  @media (--breakpoint-md) {  .md-remove { display: var(--initial) } }
+  @media (--breakpoint-lg) {  .lg-remove { display: var(--initial) } }
+

@@ -1,0 +1,31 @@
+{
+  "name": "Wisp",
+  "version": "0.0.1",
+  "description": "A couple atomic classes that are barely even there.",
+  "scripts": {
+    "prepublish": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-remove-root -u autoprefixer -o css/wisp.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "postcss-cli": "^2.5.0",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.0",
+    "postcss-import": "^8.0.2",
+    "postcss-remove-root": "0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basscss/addons.git"
+  },
+  "keywords": [
+    "wisp",
+    "css",
+    "oocss"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basscss/addons/issues"
+  },
+  "homepage": "https://github.com/basscss/addons"
+}
