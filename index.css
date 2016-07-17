@@ -31,8 +31,18 @@
   }
 
 
- /* Static Height/Width
-  * -------------------------------------------------------------------------- */
+/* 
+ * Position 
+ * -------------------------------------------------------------------------- */
+
+  .absolute   { position: absolute }
+  .relative   { position: relative }
+  .static     { position: static   }
+  .sticky     { position: sticky   }
+
+/* 
+ * Static Height/Width
+ * -------------------------------------------------------------------------- */
 
   .x1    { width: var(--one)   }
   .x2    { width: var(--two)   }
@@ -51,6 +61,7 @@
   .y6    { height: var(--siy)   }
   .y7    { height: var(--seven) }
   .y8    { height: var(--eight) }
+
 
  /*
   * Background
@@ -156,11 +167,11 @@
   }
 }
 
-  .sm-remove { display: none }
-  .md-remove { display: none }
-  .lg-remove { display: none }
+.sm-remove { display: none }
+.md-remove { display: none }
+.lg-remove { display: none }
 
-  @media (--breakpoint-sm) {  .sm-remove { display: var(--initial) } }
-  @media (--breakpoint-md) {  .md-remove { display: var(--initial) } }
-  @media (--breakpoint-lg) {  .lg-remove { display: var(--initial) } }
+@media (--breakpoint-sm) {  .sm-remove { display: var(--initial) } }
+@media (--breakpoint-md) {  .md-remove { display: var(--initial) } }
+@media (--breakpoint-lg) {  .lg-remove { display: var(--initial) } }
 
