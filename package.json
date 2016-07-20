@@ -1,7 +1,7 @@
 {
-  "name": "Wisp",
+  "name": "space-css",
   "version": "0.0.1",
-  "description": "A couple atomic classes that are barely even there.",
+  "description": "Atomic classes for the final frontier of modular design systems: space.",
   "scripts": {
     "prepublish": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-remove-root -u autoprefixer -o css/wisp.css"
   },
@@ -15,17 +15,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/addons.git"
+    "url": "https://github.com/hew/space-css.git"
   },
   "keywords": [
-    "wisp",
+    "space",
     "css",
-    "oocss"
+    "oocss",
+    "postcss"
   ],
-  "author": "Brent Jackson",
+  "author": "Matthew Jones",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/basscss/addons/issues"
+    "url": "https://github.com/hew/space-css/issues"
   },
-  "homepage": "https://github.com/basscss/addons"
+  "homepage": "https://github.com/hew/space-css/"
 }
