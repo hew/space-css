@@ -22,17 +22,16 @@ library is going to attempt to say, maybe not.
 
 Use ``fx`` or ``fy`` to fill the element's width or height (respectively)
 
-``width`` = ``x-axis``i = ``x``
-``height`` = ``y-axis`` = ``y``
+```
+x = x-axis = width
+y = y-axis = height
 
-``width: 100%`` = ``fill x-axis`` = ``.fx`` 
-``height: 100%`` = ``fill y-axis`` = ``.fy`` 
+.fx  = 'fill x-axis'   = width: 100%
+.fy  = 'fill y-axis'   = height: 100%
+.fxy = 'fill xy-axes'  = width: 100%; height: 100%
 
+```
 You can use either the shorthand, (``fx``) or the full classname, ``fill-x``
-
-But in some ways, this isn't anything new. You can use ``col-10`` to achieve ``width: 100%`` with Basscss. The reason
-the fill classes exist are for non-column elements. Either class results in ``width: 100%``, but an important part of 
-working with atomic classes is establishing a clear mental modal for what each class is doing, and why.
 
 
 ### Static Declarations
@@ -42,12 +41,13 @@ You can use whatever spacing strategy you want.
 
 ``Space`` comes with eight increments.
 
-``.x1`` = ``width: var(--space-one)``
-``.x1`` = ``width: var(--space-one)``
-``.y2`` = ``height: var(--space-two)``
-``.y2`` = ``height: var(--space-two)``
-``etc...``
-
+```
+.x1 = width: var(--space-one)
+.x1 = width: var(--space-one)
+.y2 = height: var(--space-two)
+.y2 = height: var(--space-two)
+etc...
+```
 
 ### Breakpoints
 
@@ -67,9 +67,8 @@ etc..
 ### Do I Need This?
 
 Basscss' white space API is pretty good (that's basically what this is), so if you are building a basic responsive site or page,
-you might be able to get away with Basscss and efficient use of padding/margin. ``Space`` is for more complex designs that insist on
+you might be able to get away with Basscss and efficient use of padding/margin. ``Space`` is for designs that insist on
 actually declaring specific widths/heights.
-
 
 
 
