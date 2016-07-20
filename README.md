@@ -3,7 +3,14 @@
 > Atomic classes for space.
 
 
+---
+
+## Install
+
 ``npm i --save space-css`` 
+
+--- 
+
 
 # About Space
 
@@ -31,7 +38,7 @@ y = y-axis = height
 .fxy = 'fill xy-axes'  = width: 100%; height: 100%
 
 ```
-You can use either the shorthand, (``fx``) or the full classname, ``fill-x``
+You can use either the shorthand, ``fx``, or the full classname, ``fill-x``.
 
 
 ### Static Declarations
@@ -43,8 +50,8 @@ You can use whatever spacing strategy you want.
 
 ```
 .x1 = width: var(--space-one)
-.x1 = width: var(--space-one)
-.y2 = height: var(--space-two)
+.y1 = height: var(--space-one)
+.x2 = width: var(--space-two)
 .y2 = height: var(--space-two)
 etc...
 ```
@@ -57,14 +64,13 @@ etc...
 @custom-media --breakpoint-sm (min-width: 40em);
 @custom-media --breakpoint-md (min-width: 52em);
 @custom-media --breakpoint-lg (min-width: 64em);
-
+etc..
 ```
 
-etc..
 
 
 
-### Do I Need This?
+## Do I Need This?
 
 Basscss' white space API is pretty good (that's basically what this is), so if you are building a basic responsive site or page,
 you might be able to get away with Basscss and efficient use of padding/margin. ``Space`` is for designs that insist on
