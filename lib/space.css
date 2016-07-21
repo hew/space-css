@@ -18,7 +18,7 @@
  .y3    { height: var(--space-three) }
  .y4    { height: var(--space-four)  }
  .y5    { height: var(--space-five)  }
- .y6    { height: var(--space-siy)   }
+ .y6    { height: var(--space-six)   }
  .y7    { height: var(--space-seven) }
  .y8    { height: var(--space-eight) }
 
@@ -36,7 +36,7 @@
  .y3-min   { min-height: var(--space-three) }
  .y4-min   { min-height: var(--space-four)  }
  .y5-min   { min-height: var(--space-five)  }
- .y6-min   { min-height: var(--space-siy)   }
+ .y6-min   { min-height: var(--space-six)   }
  .y7-min   { min-height: var(--space-seven) }
  .y8-min   { min-height: var(--space-eight) }
 
@@ -55,6 +55,6 @@
  .y3-max   { max-height: var(--space-three) }
  .y4-max   { max-height: var(--space-four)  }
  .y5-max   { max-height: var(--space-five)  }
- .y6-max   { max-height: var(--space-siy)   }
+ .y6-max   { max-height: var(--space-six)   }
  .y7-max   { max-height: var(--space-seven) }
  .y8-max   { max-height: var(--space-eight) }
