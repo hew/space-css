@@ -1,62 +1,62 @@
 
 @media (--breakpoint-sm) {  
 
-  .sm-fs,  .sm-fill-z      { height: 100vh; width: 100vw; }
-  .sm-fy,  .sm-fill-y      { height: 100%                 }
-  .sm-fx,  .sm-fill-x      { width: 100%                  }
-  .sm-fxy, .sm-fill        { width: 100%; height: 100%;   }
+ .sm-zf,  .sm-fill-z  { height: 100vh; width: 100vw; }
+ .sm-yf,  .sm-fill-y  { height: 100%                 }
+ .sm-xf,  .sm-fill-x  { width: 100%                  }
+ .sm-xyf, .sm-fill    { width: 100%; height: 100%;   }
 
-  .sm-x1    { width: var(--space-one)   }
-  .sm-x2    { width: var(--space-two)   }
-  .sm-x3    { width: var(--space-three) }
-  .sm-x4    { width: var(--space-four)  }
-  .sm-x5    { width: var(--space-five)  }
-  .sm-x6    { width: var(--space-six)   }
-  .sm-x7    { width: var(--space-seven) }
-  .sm-x8    { width: var(--space-eight) }
- 
-  .sm-y1    { height: var(--space-one)   }
-  .sm-y2    { height: var(--space-two)   }
-  .sm-y3    { height: var(--space-three) }
-  .sm-y4    { height: var(--space-four)  }
-  .sm-y5    { height: var(--space-five)  }
-  .sm-y6    { height: var(--space-six)   }
-  .sm-y7    { height: var(--space-seven) }
-  .sm-y8    { height: var(--space-eight) }
+ .sm-x1  { width: var(--space-one)   }
+ .sm-x2  { width: var(--space-two)   }
+ .sm-x3  { width: var(--space-three) }
+ .sm-x4  { width: var(--space-four)  }
+ .sm-x5  { width: var(--space-five)  }
+ .sm-x6  { width: var(--space-six)   }
+ .sm-x7  { width: var(--space-seven) }
+ .sm-x8  { width: var(--space-eight) }
 
-  .sm-x1-min   { min-width: var(--space-one)   }
-  .sm-x2-min   { min-width: var(--space-two)   }
-  .sm-x3-min   { min-width: var(--space-three) }
-  .sm-x4-min   { min-width: var(--space-four)  }
-  .sm-x5-min   { min-width: var(--space-five)  }
-  .sm-x6-min   { min-width: var(--space-six)   }
-  .sm-x7-min   { min-width: var(--space-seven) }
-  .sm-x8-min   { min-width: var(--space-eight) }
+ .sm-y1  { height: var(--space-one)   }
+ .sm-y2  { height: var(--space-two)   }
+ .sm-y3  { height: var(--space-three) }
+ .sm-y4  { height: var(--space-four)  }
+ .sm-y5  { height: var(--space-five)  }
+ .sm-y6  { height: var(--space-six)   }
+ .sm-y7  { height: var(--space-seven) }
+ .sm-y8  { height: var(--space-eight) }
 
-  .sm-y1-min   { min-height: var(--space-one)   }
-  .sm-y2-min   { min-height: var(--space-two)   }
-  .sm-y3-min   { min-height: var(--space-three) }
-  .sm-y4-min   { min-height: var(--space-four)  }
-  .sm-y5-min   { min-height: var(--space-five)  }
-  .sm-y6-min   { min-height: var(--space-six)   }
-  .sm-y7-min   { min-height: var(--space-seven) }
-  .sm-y8-min   { min-height: var(--space-eight) }
+ .sm-x1-min  { min-width: var(--space-one)   }
+ .sm-x2-min  { min-width: var(--space-two)   }
+ .sm-x3-min  { min-width: var(--space-three) }
+ .sm-x4-min  { min-width: var(--space-four)  }
+ .sm-x5-min  { min-width: var(--space-five)  }
+ .sm-x6-min  { min-width: var(--space-six)   }
+ .sm-x7-min  { min-width: var(--space-seven) }
+ .sm-x8-min  { min-width: var(--space-eight) }
 
-  .sm-x1-max   { max-width: var(--space-one)   }
-  .sm-x2-max   { max-width: var(--space-two)   }
-  .sm-x3-max   { max-width: var(--space-three) }
-  .sm-x4-max   { max-width: var(--space-four)  }
-  .sm-x5-max   { max-width: var(--space-five)  }
-  .sm-x6-max   { max-width: var(--space-six)   }
-  .sm-x7-max   { max-width: var(--space-seven) }
-  .sm-x8-max   { max-width: var(--space-eight) }
+ .sm-y1-min  { min-height: var(--space-one)   }
+ .sm-y2-min  { min-height: var(--space-two)   }
+ .sm-y3-min  { min-height: var(--space-three) }
+ .sm-y4-min  { min-height: var(--space-four)  }
+ .sm-y5-min  { min-height: var(--space-five)  }
+ .sm-y6-min  { min-height: var(--space-six)   }
+ .sm-y7-min  { min-height: var(--space-seven) }
+ .sm-y8-min  { min-height: var(--space-eight) }
 
-  .sm-y1-max   { max-height: var(--space-one)   }
-  .sm-y2-max   { max-height: var(--space-two)   }
-  .sm-y3-max   { max-height: var(--space-three) }
-  .sm-y4-max   { max-height: var(--space-four)  }
-  .sm-y5-max   { max-height: var(--space-five)  }
-  .sm-y6-max   { max-height: var(--space-six)   }
-  .sm-y7-max   { max-height: var(--space-seven) }
-  .sm-y8-max   { max-height: var(--space-eight) }
+ .sm-x1-max  { max-width: var(--space-one)   }
+ .sm-x2-max  { max-width: var(--space-two)   }
+ .sm-x3-max  { max-width: var(--space-three) }
+ .sm-x4-max  { max-width: var(--space-four)  }
+ .sm-x5-max  { max-width: var(--space-five)  }
+ .sm-x6-max  { max-width: var(--space-six)   }
+ .sm-x7-max  { max-width: var(--space-seven) }
+ .sm-x8-max  { max-width: var(--space-eight) }
+
+ .sm-y1-max  { max-height: var(--space-one)   }
+ .sm-y2-max  { max-height: var(--space-two)   }
+ .sm-y3-max  { max-height: var(--space-three) }
+ .sm-y4-max  { max-height: var(--space-four)  }
+ .sm-y5-max  { max-height: var(--space-five)  }
+ .sm-y6-max  { max-height: var(--space-six)   }
+ .sm-y7-max  { max-height: var(--space-seven) }
+ .sm-y8-max  { max-height: var(--space-eight) }
 }

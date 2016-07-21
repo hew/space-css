@@ -1,60 +1,60 @@
 
- .fs,  .fill-z          { height: 100vh; width: 100vw; }
- .fy,  .fill-x          { height: 100%                 }
- .fx,  .fill-y          { width: 100%                  }
- .fxy, .fill            { width: 100%; height: 100%;   }
+ .zf,  .fill-z  { height: 100vh; width: 100vw; }
+ .yf,  .fill-x  { height: 100%                 }
+ .xf,  .fill-y  { width: 100%                  }
+ .xyf, .fill    { width: 100%; height: 100%;   }
 
- .x1    { width: var(--space-one)   }
- .x2    { width: var(--space-two)   }
- .x3    { width: var(--space-three) }
- .x4    { width: var(--space-four)  }
- .x5    { width: var(--space-five)  }
- .x6    { width: var(--space-six)   }
- .x7    { width: var(--space-seven) }
- .x8    { width: var(--space-eight) }
+ .x1  { width: var(--space-one)   }
+ .x2  { width: var(--space-two)   }
+ .x3  { width: var(--space-three) }
+ .x4  { width: var(--space-four)  }
+ .x5  { width: var(--space-five)  }
+ .x6  { width: var(--space-six)   }
+ .x7  { width: var(--space-seven) }
+ .x8  { width: var(--space-eight) }
  
- .y1    { height: var(--space-one)   }
- .y2    { height: var(--space-two)   }
- .y3    { height: var(--space-three) }
- .y4    { height: var(--space-four)  }
- .y5    { height: var(--space-five)  }
- .y6    { height: var(--space-six)   }
- .y7    { height: var(--space-seven) }
- .y8    { height: var(--space-eight) }
+ .y1  { height: var(--space-one)   }
+ .y2  { height: var(--space-two)   }
+ .y3  { height: var(--space-three) }
+ .y4  { height: var(--space-four)  }
+ .y5  { height: var(--space-five)  }
+ .y6  { height: var(--space-six)   }
+ .y7  { height: var(--space-seven) }
+ .y8  { height: var(--space-eight) }
 
- .x1-min   { min-width: var(--space-one)   }
- .x2-min   { min-width: var(--space-two)   }
- .x3-min   { min-width: var(--space-three) }
- .x4-min   { min-width: var(--space-four)  }
- .x5-min   { min-width: var(--space-five)  }
- .x6-min   { min-width: var(--space-six)   }
- .x7-min   { min-width: var(--space-seven) }
- .x8-min   { min-width: var(--space-eight) }
+ .x1-min  { min-width: var(--space-one)   }
+ .x2-min  { min-width: var(--space-two)   }
+ .x3-min  { min-width: var(--space-three) }
+ .x4-min  { min-width: var(--space-four)  }
+ .x5-min  { min-width: var(--space-five)  }
+ .x6-min  { min-width: var(--space-six)   }
+ .x7-min  { min-width: var(--space-seven) }
+ .x8-min  { min-width: var(--space-eight) }
  
- .y1-min   { min-height: var(--space-one)   }
- .y2-min   { min-height: var(--space-two)   }
- .y3-min   { min-height: var(--space-three) }
- .y4-min   { min-height: var(--space-four)  }
- .y5-min   { min-height: var(--space-five)  }
- .y6-min   { min-height: var(--space-six)   }
- .y7-min   { min-height: var(--space-seven) }
- .y8-min   { min-height: var(--space-eight) }
+ .y1-min  { min-height: var(--space-one)   }
+ .y2-min  { min-height: var(--space-two)   }
+ .y3-min  { min-height: var(--space-three) }
+ .y4-min  { min-height: var(--space-four)  }
+ .y5-min  { min-height: var(--space-five)  }
+ .y6-min  { min-height: var(--space-six)   }
+ .y7-min  { min-height: var(--space-seven) }
+ .y8-min  { min-height: var(--space-eight) }
 
 
- .x1-max   { max-width: var(--space-one)   }
- .x2-max   { max-width: var(--space-two)   }
- .x3-max   { max-width: var(--space-three) }
- .x4-max   { max-width: var(--space-four)  }
- .x5-max   { max-width: var(--space-five)  }
- .x6-max   { max-width: var(--space-six)   }
- .x7-max   { max-width: var(--space-seven) }
- .x8-max   { max-width: var(--space-eight) }
+ .x1-max  { max-width: var(--space-one)   }
+ .x2-max  { max-width: var(--space-two)   }
+ .x3-max  { max-width: var(--space-three) }
+ .x4-max  { max-width: var(--space-four)  }
+ .x5-max  { max-width: var(--space-five)  }
+ .x6-max  { max-width: var(--space-six)   }
+ .x7-max  { max-width: var(--space-seven) }
+ .x8-max  { max-width: var(--space-eight) }
  
- .y1-max   { max-height: var(--space-one)   }
- .y2-max   { max-height: var(--space-two)   }
- .y3-max   { max-height: var(--space-three) }
- .y4-max   { max-height: var(--space-four)  }
- .y5-max   { max-height: var(--space-five)  }
- .y6-max   { max-height: var(--space-six)   }
- .y7-max   { max-height: var(--space-seven) }
- .y8-max   { max-height: var(--space-eight) }
+ .y1-max  { max-height: var(--space-one)   }
+ .y2-max  { max-height: var(--space-two)   }
+ .y3-max  { max-height: var(--space-three) }
+ .y4-max  { max-height: var(--space-four)  }
+ .y5-max  { max-height: var(--space-five)  }
+ .y6-max  { max-height: var(--space-six)   }
+ .y7-max  { max-height: var(--space-seven) }
+ .y8-max  { max-height: var(--space-eight) }
