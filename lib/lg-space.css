@@ -1,5 +1,5 @@
 
-@media(--space-breakpoint-lg) {
+@media(--breakpoint-lg) {
 
  .lg-fs,  .lg-fill-z     { height: 100vh; width: 100vw; }
  .lg-fy,  .lg-fill-y     { height: 100%                 }

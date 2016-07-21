@@ -1,9 +1,9 @@
 {
   "name": "space-css",
   "version": "0.0.1",
-  "description": "Atomic classes for the final frontier of modular design systems: space.",
+  "description": "Atomic classes for the final frontier.",
   "scripts": {
-    "prepublish": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-remove-root -u autoprefixer -o css/wisp.css"
+    "prepublish": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-remove-root -u autoprefixer -o css/space.css"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
