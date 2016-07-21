@@ -3,7 +3,7 @@
 > Atomic classes for space.
 
 
-⌨  ``npm i --save space-css``
+``npm i --save space-css``
 
 
 
@@ -22,10 +22,8 @@ to work with height and width directly. Enter ``Space`` &mdash; a set of atomic 
 ```css
 
 /* 
-
   width = x-axis 
-  height = y-ayis 
-
+  height = y-axis 
 */
 
 ```
@@ -43,7 +41,9 @@ Use ``xf`` or ``yf`` to fill the element's width or height (respectively)
 .zf    { width: 100vh; 100vw;      }
 
 ```
-You can use either the shorthand, ``xf``, or the full classname, ``fill-x``.
+You can use either the shorthand, ``xf``, or the full classname, ``fill-x``. 
+
+There is a helper class for setting full screen that operates using the z-index. 
 
 
 ### Static Declarations
@@ -51,7 +51,8 @@ You can use either the shorthand, ``xf``, or the full classname, ``fill-x``.
 Like Basscss, Space asks you to embrace a philosophy where you declare spacing variables ahead of time and work within them.
 You can use whatever spacing strategy you want.  
 
-``Space`` comes with eight increments. You can see the defaults [here](https://github.com/hew/space-css/blob/master/index.css#L10)
+``Space`` comes with eight increments. You can see the defaults [here](https://github.com/hew/space-css/blob/master/index.css#L10). Note 
+that they are different from the Basscss white space defaults.
 
 ```css
 .x1 { width: var(--space-one)  }
