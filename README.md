@@ -3,42 +3,47 @@
 > Atomic classes for space.
 
 
----
+⌨  ``npm i --save space-css``
 
-## Install
-
-``npm i --save space-css`` 
-
---- 
 
 
 # About Space
 
-Space, the final frontier. 
-
-I am a big fan of Basscss (and the addons) but recently working on a large project I decided that I needed some
-more tools when it comes to declaring space. But using atomic classes to handle spacing is tricky. You could make
-the argument that any static measurement should probably live in a custom class or inline styles. Maybe. This 
-library is going to attempt to say, maybe not. 
+I am a big fan of [Basscss](http://basscss.com) but recently working on a large project I decided that I needed more tools
+to work with height and width directly. Enter ``Space`` &mdash; a set of atomic classes for working with height and width.
 
 
 ## How Space Works
 
+### Basics 
+
+``Space`` operates on the x, y axes. 
+
+```css
+
+/* 
+
+  width = x-axis 
+  height = y-ayis 
+
+*/
+
+```
 
 ### Fills
 
-Use ``fx`` or ``fy`` to fill the element's width or height (respectively)
+Use ``xf`` or ``yf`` to fill the element's width or height (respectively)
+
+```css
+/* f = fill */
+
+.xf    { width: 100%               }
+.yf    { height: 100%              }
+.xyf   { width: 100%; height: 100% }
+.zf    { width: 100vh; 100vw;      }
 
 ```
-x = x-axis = width
-y = y-axis = height
-
-.fx  = 'fill x-axis'   = width: 100%
-.fy  = 'fill y-axis'   = height: 100%
-.fxy = 'fill xy-axes'  = width: 100%; height: 100%
-
-```
-You can use either the shorthand, ``fx``, or the full classname, ``fill-x``.
+You can use either the shorthand, ``xf``, or the full classname, ``fill-x``.
 
 
 ### Static Declarations
@@ -46,19 +51,27 @@ You can use either the shorthand, ``fx``, or the full classname, ``fill-x``.
 Like Basscss, Space asks you to embrace a philosophy where you declare spacing variables ahead of time and work within them.
 You can use whatever spacing strategy you want.  
 
-``Space`` comes with eight increments.
+``Space`` comes with eight increments. You can see the defaults [here](https://github.com/hew/space-css/blob/master/index.css#L10)
 
-```
-.x1 = width: var(--space-one)
-.y1 = height: var(--space-one)
-.x2 = width: var(--space-two)
-.y2 = height: var(--space-two)
+```css
+.x1 { width: var(--space-one)  }
+.y1 { height: var(--space-one) }
+.x2 { width: var(--space-two)  }
+.y2 { height: var(--space-two) }a
+
+@media(--breakpoint-sm) {
+  .x1 { width: var(--space-one)  }
+  .y1 { height: var(--space-one) }
+  .x2 { width: var(--space-two)  }
+  .y2 { height: var(--space-two) }
+}
 etc...
 ```
 
+
 ### Breakpoints
 
-``Space`` uses the same default breakpoints as Basscss:
+``Space`` uses the same (three) default breakpoints as Basscss. You can see them [here](https://github.com/hew/space-css/blob/master/index.css#L6)
 
 ```
 @custom-media --breakpoint-sm (min-width: 40em);
@@ -69,13 +82,11 @@ etc..
 
 
 
-
 ## Do I Need This?
 
 Basscss' white space API is pretty good (that's basically what this is), so if you are building a basic responsive site or page,
 you might be able to get away with Basscss and efficient use of padding/margin. ``Space`` is for designs that insist on
 actually declaring specific widths/heights.
-
 
 
 ##License
