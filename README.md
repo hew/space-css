@@ -10,7 +10,10 @@
 # About Space
 
 I am a big fan of [Basscss](http://basscss.com) but recently working on a large project I decided that I needed more tools
-to work with height and width directly. Enter ``Space`` &mdash; a set of atomic classes for working with height and width.
+to work with height and width.
+
+Enter ``Space`` &mdash; a mobile-first set of atomic classes for working with height and width. It was designed to work with
+Basscss, and follows the same coordinate-based mental model. 
 
 
 ## How Space Works
@@ -41,52 +44,47 @@ Use ``xf`` or ``yf`` to fill the element's width or height (respectively)
 .zf    { width: 100vh; 100vw;      }
 
 ```
-You can use either the shorthand, ``xf``, or the full classname, ``fill-x``. 
+You can use either the shorthand, ``xf``, or the full classname, ``x-fill``. 
 
-There is a helper class for setting full screen that operates using the z-index. 
+There is a singler helper class for setting full screen that operates using the z-axis.
 
 
 ### Static Declarations
 
-Like Basscss, Space asks you to embrace a philosophy where you declare spacing variables ahead of time and work within them.
+Like Basscss, ``Space`` asks you to embrace a philosophy where you declare spacing variables ahead of time and work within them.
 You can use whatever spacing strategy you want.  
 
-``Space`` comes with eight increments. You can see the defaults [here](https://github.com/hew/space-css/blob/master/index.css#L10). Note 
-that they are different from the Basscss white space defaults.
+``Space`` comes with eight increments. You can see the defaults [here](https://github.com/hew/space-css/blob/master/index.css#L10). (Note 
+that they are different from the Basscss white space defaults.)
 
 ```css
 .x1 { width: var(--space-one)  }
-.y1 { height: var(--space-one) }
 .x2 { width: var(--space-two)  }
-.y2 { height: var(--space-two) }a
+
+.y1 { height: var(--space-one) }
+.y2 { height: var(--space-two) }
 
 @media(--breakpoint-sm) {
-  .x1 { width: var(--space-one)  }
-  .y1 { height: var(--space-one) }
-  .x2 { width: var(--space-two)  }
-  .y2 { height: var(--space-two) }
-}
-etc...
-```
 
+  .sm-x1 { width: var(--space-one)  }
+  .sm-x2 { width: var(--space-two)  }
+
+  .sm-y1 { height: var(--space-one) }
+  .sm-y2 { height: var(--space-two) }
+
+}
+```
+etc...
 
 ### Breakpoints
 
-``Space`` uses the same (three) default breakpoints as Basscss. You can see them [here](https://github.com/hew/space-css/blob/master/index.css#L6)
+``Space`` uses the same (three) default breakpoints as Basscss. 
 
 ```
 @custom-media --breakpoint-sm (min-width: 40em);
 @custom-media --breakpoint-md (min-width: 52em);
 @custom-media --breakpoint-lg (min-width: 64em);
 ```
-
-
-
-## Do I Need This?
-
-Basscss' white space API is pretty good (that's basically what this is), so if you are building a basic responsive site or page,
-you might be able to get away with Basscss and efficient use of padding/margin. ``Space`` is for designs that insist on
-actually declaring specific widths/heights.
 
 
 ##License

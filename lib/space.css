@@ -1,8 +1,8 @@
 
- .zf,  .fill-z  { height: 100vh; width: 100vw; }
- .yf,  .fill-x  { height: 100%                 }
- .xf,  .fill-y  { width: 100%                  }
+ .yf,  .y-fill  { height: 100%                 }
+ .xf,  .x-fill  { width: 100%                  }
  .xyf, .fill    { width: 100%; height: 100%;   }
+ .zf,  .z-fill  { height: 100vh; width: 100vw; }
 
  .x1  { width: var(--space-one)   }
  .x2  { width: var(--space-two)   }
@@ -58,3 +58,4 @@
  .y6-max  { max-height: var(--space-six)   }
  .y7-max  { max-height: var(--space-seven) }
  .y8-max  { max-height: var(--space-eight) }
+

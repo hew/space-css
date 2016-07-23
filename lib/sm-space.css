@@ -1,10 +1,10 @@
 
 @media (--breakpoint-sm) {  
 
- .sm-zf,  .sm-fill-z  { height: 100vh; width: 100vw; }
- .sm-yf,  .sm-fill-y  { height: 100%                 }
- .sm-xf,  .sm-fill-x  { width: 100%                  }
+ .sm-yf,  .sm-y-fill  { height: 100%                 }
+ .sm-xf,  .sm-x-fill  { width: 100%                  }
  .sm-xyf, .sm-fill    { width: 100%; height: 100%;   }
+ .sm-zf,  .sm-z-fill  { height: 100vh; width: 100vw; }
 
  .sm-x1  { width: var(--space-one)   }
  .sm-x2  { width: var(--space-two)   }
@@ -59,4 +59,5 @@
  .sm-y6-max  { max-height: var(--space-six)   }
  .sm-y7-max  { max-height: var(--space-seven) }
  .sm-y8-max  { max-height: var(--space-eight) }
+
 }

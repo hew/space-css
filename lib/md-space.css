@@ -1,10 +1,10 @@
 
 @media(--breakpoint-md) {
 
- .md-zf,  .md-fill-z  { height: 100vh; width: 100vw; }
- .md-yf,  .md-fill-y  { height: 100%                 }
- .md-xf,  .md-fill-x  { width: 100%                  }
+ .md-yf,  .md-y-fill  { height: 100%                 }
+ .md-xf,  .md-x-fill  { width: 100%                  }
  .md-xyf, .md-fill    { width: 100%; height: 100%;   }
+ .md-zf,  .md-z-fill  { height: 100vh; width: 100vw; }
 
  .md-x1  { width: var(--space-one)   }
  .md-x2  { width: var(--space-two)   }
@@ -61,3 +61,4 @@
  .md-y8-max  { max-height: var(--space-eight) }
 
 }
+

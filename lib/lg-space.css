@@ -1,10 +1,10 @@
 
 @media(--breakpoint-lg) {
 
- .lg-zf,  .lg-fill-z  { height: 100vh; width: 100vw; }
- .lg-yf,  .lg-fill-y  { height: 100%                 }
- .lg-xf,  .lg-fill-x  { width: 100%                  }
- .lg-fxy, .lg-fill    { width: 100%; height: 100%;   }
+ .lg-yf,  .lg-y-fill  { height: 100%                 }
+ .lg-xf,  .lg-x-fill  { width: 100%                  }
+ .lg-xyf, .lg-fill    { width: 100%; height: 100%;   }
+ .lg-zf,  .lg-z-fill  { height: 100vh; width: 100vw; }
 
  .lg-x1  { width: var(--space-one)   }
  .lg-x2  { width: var(--space-two)   }

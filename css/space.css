@@ -1,8 +1,8 @@
 
- .zf,  .fill-z  { height: 100vh; width: 100vw; }
- .yf,  .fill-x  { height: 100%                 }
- .xf,  .fill-y  { width: 100%                  }
+ .yf,  .x-fill  { height: 100%                 }
+ .xf,  .y-fill  { width: 100%                  }
  .xyf, .fill    { width: 100%; height: 100%;   }
+ .zf,  .z-fill  { height: 100vh; width: 100vw; }
  .x1  { width: 2.5em   }
  .x2  { width: 5em   }
  .x3  { width: 10em }
@@ -53,10 +53,10 @@
  .y8-max  { max-height: 320em }
  @media (min-width: 40em) {  
 
- .sm-zf,  .sm-fill-z  { height: 100vh; width: 100vw; }
- .sm-yf,  .sm-fill-y  { height: 100%                 }
- .sm-xf,  .sm-fill-x  { width: 100%                  }
+ .sm-yf,  .sm-y-fill  { height: 100%                 }
+ .sm-xf,  .sm-x-fill  { width: 100%                  }
  .sm-xyf, .sm-fill    { width: 100%; height: 100%;   }
+ .sm-zf,  .sm-z-fill  { height: 100vh; width: 100vw; }
 
  .sm-x1  { width: 2.5em   }
  .sm-x2  { width: 5em   }
@@ -114,10 +114,10 @@
 }
  @media(min-width: 52em) {
 
- .md-zf,  .md-fill-z  { height: 100vh; width: 100vw; }
- .md-yf,  .md-fill-y  { height: 100%                 }
- .md-xf,  .md-fill-x  { width: 100%                  }
+ .md-yf,  .md-y-fill  { height: 100%                 }
+ .md-xf,  .md-x-fill  { width: 100%                  }
  .md-xyf, .md-fill    { width: 100%; height: 100%;   }
+ .md-zf,  .md-z-fill  { height: 100vh; width: 100vw; }
 
  .md-x1  { width: 2.5em   }
  .md-x2  { width: 5em   }
@@ -176,10 +176,10 @@
 }
  @media(min-width: 64em) {
 
- .lg-zf,  .lg-fill-z  { height: 100vh; width: 100vw; }
- .lg-yf,  .lg-fill-y  { height: 100%                 }
- .lg-xf,  .lg-fill-x  { width: 100%                  }
+ .lg-yf,  .lg-y-fill  { height: 100%                 }
+ .lg-xf,  .lg-x-fill  { width: 100%                  }
  .lg-fxy, .lg-fill    { width: 100%; height: 100%;   }
+ .lg-zf,  .lg-z-fill  { height: 100vh; width: 100vw; }
 
  .lg-x1  { width: 2.5em   }
  .lg-x2  { width: 5em   }
