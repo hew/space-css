@@ -1,6 +1,6 @@
 {
   "name": "space-css",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Atomic classes for the final frontier.",
   "scripts": {
     "prepublish": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-remove-root -u autoprefixer -o css/space.css"
