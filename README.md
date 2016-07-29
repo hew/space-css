@@ -33,7 +33,7 @@ Basscss, and follows the same coordinate-based mental model.
 
 ### Fills
 
-Use ``xf`` or ``yf`` to fill the element's width or height (respectively)
+Use ``xf`` or ``yf`` to fill the element's width or height.
 
 ```css
 /* f = fill */
