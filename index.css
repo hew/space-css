@@ -8,12 +8,12 @@
 @custom-media --breakpoint-lg (min-width: 64em);
 
 :root {
-  --space-one:     2.5em;
-  --space-two:     5em;
-  --space-three:   10em;
-  --space-four:    20em;
-  --space-five:    40em;
-  --space-six:     80em;
-  --space-seven:   160em;
-  --space-eight:   320em;
+  --space-one:     0.5em;
+  --space-two:     1em;
+  --space-three:   1.5em;
+  --space-four:    2em;
+  --space-five:    2.5em;
+  --space-six:     3em;
+  --space-seven:   3.5em;
+  --space-eight:   4em;
 }
