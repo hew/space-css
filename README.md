@@ -86,6 +86,5 @@ etc...
 @custom-media --breakpoint-lg (min-width: 64em);
 ```
 
-
-##License
-MIT [Matthew Jones](http://hew.tools)
+---
+License: MIT 
